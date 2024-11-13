@@ -3,11 +3,11 @@ import sys
 # Check if enough arguments are provided
 if len(sys.argv) < 4:
     print("Error: too few arguments.")
-    print("Usage: python script.py <param_1> <param_2> <param_3>")
+    print("Usage: python script.py <shelltype> <ip> <port>")
     sys.exit(1)
 elif len(sys.argv) > 4:
     print("Error: too many arguments.")
-    print("Usage: python script.py <param_1> <param_2> <param_3>")
+    print("Usage: python script.py <shelltype> <ip> <port>")
     sys.exit(1)
 
 # main
